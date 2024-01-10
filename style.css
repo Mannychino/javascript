@@ -1,0 +1,68 @@
+body {
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+form {
+    text-align: left;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    border: 3px solid rgb(0, 102, 128);
+    border-radius:3px ;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5 );
+}
+
+ form-control {
+       text-align: left;
+       margin-bottom: 255px;
+}
+
+form-contol:label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form-control:input:select:textarea {
+      border: 1px solid #fff;
+      border-radius: 2px;
+      font-family: verdena;
+      padding: 10px;
+      display: block;
+      width: 95%;
+      color: rgb(23, 40, 05);
+}
+
+/*stying form-control radio, button and checkbox */
+ .form-control input [type="radio"]
+ .form-control input [type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.form-control input [type="name"]
+.form-control input [type="password"]
+.form-control input [type="email"]
+.form-control input [type="age"] {
+    text-align: left;
+    
+}
+
+/* stying button */
+
+button {
+    background-color: #05c466;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: verdana;
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+ 
